@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pixel Catch!</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="game-card">
+      <h1>PIXEL CATCH!</h1>
+      <p class="subtitle">Tangkap benda yang jatuh, jangan sampai lolos!</p>
+
+      <div class="score-bar">
+        <span>SKOR: <strong id="score">0</strong></span>
+        <span>NYAWA: <strong id="lives">3</strong></span>
+      </div>
+
+      <canvas id="game" width="480" height="520" aria-label="Area permainan Pixel Catch"></canvas>
+      <button id="startButton">MULAI MAIN</button>
+      <p class="controls">Gerakkan keranjang dengan tombol ← → atau mouse / sentuh layar.</p>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
